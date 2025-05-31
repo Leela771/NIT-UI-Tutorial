@@ -1,15 +1,39 @@
-.colors{
-  background-color:pink;
-  color: #333;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
-  padding: 20px;
-  border-radius: 20px;
 }
 
-.darling{
-  background-color: #f0f8ff;
+body {
+  background-color: #f2f2f2;
   color: #333;
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  border-radius: 20px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
